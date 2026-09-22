@@ -1,0 +1,97 @@
+{
+  "case_id": "real-starship-ift6",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "SpaceX conducts sixth integrated flight test of Starship",
+    "summary_html": "<p>On 19 Nov 2024, SpaceX <a href=\"https://www.bbc.co.uk/news/live/c87xqd0n1zgt\">conducts</a> the sixth integrated flight test of Super Heavy and Starship from Starbase, Texas, using Super Heavy Booster 13 and Starship Ship 31. The test focuses on operational improvements, including heat-shield experiments and a steeper reentry angle to gather thermal-protection-system performance data. The flight carries a banana as a reported payload item. Launch and hot-stage separation succeed, but Booster 13 is diverted to splashdown in the Gulf of Mexico instead of a catch by the Mechazilla tower arms. Ship 31 reignites one Raptor engine in space and completes splashdown in the Indian Ocean after about 1 hour 5 minutes.</p><p>On 20 Nov 2024, Musk posts that the ocean landing of Starship was successful and that SpaceX will do one more ocean landing of the ship before attempting a tower catch.</p><blockquote><p>Successful ocean landing of Starship! We will do one more ocean landing of the ship. If that goes well, then SpaceX will attempt to catch the ship with the tower.</p></blockquote>",
+    "occurred_at": "2024-11-19T10:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "unmanned-launch",
+    "topic_slugs": [
+      "elon-musk",
+      "spacex",
+      "starship-rocket"
+    ],
+    "quotes": [
+      {
+        "text": "Successful ocean landing of Starship! We will do one more ocean landing of the ship. If that goes well, then SpaceX will attempt to catch the ship with the tower.",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1859036912348262787"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.bbc.co.uk/news/live/c87xqd0n1zgt",
+        "type": "primary"
+      },
+      {
+        "url": "https://twitter.com/elonmusk/status/1859036912348262787",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://www.bbc.co.uk/news/live/c87xqd0n1zgt",
+        "https://twitter.com/elonmusk/status/1859036912348262787"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T16:01:26.749Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://www.bbc.co.uk/news/live/c87xqd0n1zgt",
+    "media_url": null,
+    "quotes": [
+      {
+        "text": "Successful ocean landing of Starship! We will do one more ocean landing of the ship. If that goes well, then SpaceX will attempt to catch the ship with the tower.",
+        "speaker": "Elon Musk"
+      }
+    ]
+  },
+  "fact_bundle": {
+    "facts": [
+      "On 19 Nov 2024, SpaceX conducts the sixth integrated flight test of Super Heavy and Starship from Starbase, Texas.",
+      "The flight uses Super Heavy Booster 13 and Starship Ship 31.",
+      "The test focuses on operational improvements, including heat-shield experiments and flying at a steeper reentry angle to gather thermal-protection-system performance data.",
+      "The flight carries a banana as a reported payload item.",
+      "Launch and hot-stage separation succeed.",
+      "Booster 13 is diverted to splashdown in the Gulf of Mexico instead of a catch by the Mechazilla tower arms.",
+      "Ship 31 reignites one Raptor engine in space.",
+      "After a flight of about 1 hour 5 minutes, Ship 31 completes splashdown in the Indian Ocean.",
+      "On 20 Nov 2024, Musk posts that the ocean landing of Starship was successful and that SpaceX will do one more ocean landing of the ship before attempting a tower catch."
+    ],
+    "subject_quotes": [
+      {
+        "text": "Successful ocean landing of Starship! We will do one more ocean landing of the ship. If that goes well, then SpaceX will attempt to catch the ship with the tower.",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1859036912348262787"
+      }
+    ],
+    "source_urls": [
+      "https://www.bbc.co.uk/news/live/c87xqd0n1zgt",
+      "https://twitter.com/elonmusk/status/1859036912348262787"
+    ],
+    "publisher_headlines": [
+      "Watch SpaceX launch Starship test flight with Donald Trump watching on - BBC News"
+    ],
+    "suggested_occurred_at": "2024-11-19T10:00:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "unmanned-launch",
+    "notes": "Short names: Musk, SpaceX, Starship, Super Heavy, Ship 31, Booster 13. Primary action is the flight on Nov 19; Musk post on Nov 20 is part of the same event record as reaction. Prefer BBC link on key verb and X as primary for the quote."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://twitter.com/elonmusk/status/1859036912348262787",
+      "error": "X/Twitter pages usually require login. Pass --text-file or case.pasted_text."
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T16:01:26.755Z"
+}

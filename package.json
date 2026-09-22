@@ -3,23 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --port 3030",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "next start --port 3030",
+    "lint": "eslint",
+    "seed:wp": "tsx scripts/migrate-wp-seed.ts",
+    "seed:wp:supabase": "tsx scripts/migrate-wp-seed.ts --to-supabase",
+    "seed:archive": "python scripts/import-wp-archive.py",
+    "seed:archive:clusters": "python scripts/import-wp-archive.py --clusters-only",
+    "seed:wikidata-images": "tsx scripts/fetch-wikidata-images.ts",
+    "generate:event": "tsx scripts/generate-event.ts",
+    "generate:event:validate": "tsx scripts/validate-pilot-event.ts",
+    "generate:event:smoke": "tsx scripts/smoke-generate-validators.ts"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.3.3",
+    "@supabase/ssr": "^0.12.4",
+    "@supabase/supabase-js": "^2.112.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "dotenv": "^17.4.2",
+    "lucide-react": "^1.28.0",
     "next": "16.3.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "sanitize-html": "^2.17.5",
+    "tailwind-merge": "^3.6.0",
+    "tsx": "^4.23.8",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.1",
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
+    "playwright": "^1.62.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

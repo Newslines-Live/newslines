@@ -1,0 +1,18 @@
+{
+  "id": "claim-frame",
+  "description": "Contested claim requiring Claim: framing and no partisan labels.",
+  "topic": "elon-musk",
+  "urls": [
+    "https://example.com/allege-starlink",
+    "https://example.com/no-evidence-note"
+  ],
+  "facts": [
+    "Some social-media users allege that Starlink was used to interfere with the 2024 US presidential election.",
+    "The supplied sources do not provide verified evidence supporting the allegation.",
+    "Starlink is a SpaceX satellite internet service associated with Musk."
+  ],
+  "suggested_occurred_at": "2024-11-06T12:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "rumor-unconfirmed",
+  "notes": "Title should use Claim: prefix. Do not use tribal political labels. Short names only (Musk, Starlink, SpaceX) — not full personal names in title/body."
+}

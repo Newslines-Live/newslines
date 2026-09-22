@@ -1,0 +1,92 @@
+{
+  "case_id": "real-lottery-hearing-order",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [
+      {
+        "severity": "warning",
+        "code": "single_source",
+        "message": "Only one source and it is not an obvious primary (X/company/SEC)"
+      }
+    ]
+  },
+  "event": {
+    "title": "Musk ordered to attend voter lottery hearing",
+    "summary_html": "<p>A Philadelphia judge <a href=\"https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/\">issues</a> an order requiring Musk to appear in person at a hearing regarding a $1 million-per-day voter lottery scheme, which the Philadelphia District Attorney characterizes as an illegal lottery.</p><p>The court moves the hearing up by one day, stating, <blockquote><p>It is further ordered that all parties must be present at the time of the hearing.</p></blockquote></p>",
+    "occurred_at": "2024-10-30T00:08:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "court-filing",
+    "topic_slugs": [
+      "elon-musk",
+      "politics"
+    ],
+    "quotes": [
+      {
+        "text": "It is further ordered that all parties must be present at the time of the hearing.",
+        "speaker": "Philadelphia court order",
+        "source_url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/",
+        "publisher": "Reuters",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T16:01:48.855Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/",
+    "media_url": null,
+    "quotes": [
+      {
+        "text": "It is further ordered that all parties must be present at the time of the hearing.",
+        "speaker": "Philadelphia court order"
+      }
+    ]
+  },
+  "fact_bundle": {
+    "facts": [
+      "In late Oct 2024, a Philadelphia judge issues an order in the civil case brought by the Philadelphia District Attorney over a $1 million-per-day voter lottery associated with Musk.",
+      "The DA’s suit characterises the prize scheme as an illegal lottery under applicable law.",
+      "The court moves the hearing up by one day.",
+      "The order requires Musk to appear in person at the hearing.",
+      "The written order states that all parties must be present at the time of the hearing.",
+      "Reuters reports the order on 30 Oct 2024 (via CNBC legal coverage syndication)."
+    ],
+    "subject_quotes": [
+      {
+        "text": "It is further ordered that all parties must be present at the time of the hearing",
+        "speaker": "Philadelphia court order",
+        "source_url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+      }
+    ],
+    "source_urls": [
+      "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+    ],
+    "publisher_headlines": [],
+    "suggested_occurred_at": "2024-10-30T00:08:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "court-filing",
+    "notes": "Short names: Musk, Philadelphia DA. Do not invent hearing outcome (appearance/order only). Prefer court-filing or trial-related leaf; not files-suit unless Musk is plaintiff. Include $1m/day lottery context, DA plaintiff, move-up of hearing, in-person appearance requirement."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/",
+      "error": "HTTP 401"
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T16:01:48.862Z"
+}

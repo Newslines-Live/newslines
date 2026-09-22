@@ -1,0 +1,76 @@
+{
+  "case_id": "claim-frame",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "Claim: Starlink used to interfere with 2024 US election",
+    "summary_html": "<p>Some social-media users <a href=\"https://example.com/allege-starlink\">allege</a> that Starlink was used to interfere with the 2024 US presidential election. However, the supplied sources do not provide verified evidence supporting the allegation.</p>",
+    "occurred_at": "2024-11-06T12:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "rumor-unconfirmed",
+    "topic_slugs": [
+      "elon-musk",
+      "spacex",
+      "starlink"
+    ],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://example.com/allege-starlink",
+        "type": "primary"
+      },
+      {
+        "url": "https://example.com/no-evidence-note",
+        "type": "corroboration"
+      }
+    ],
+    "media": [],
+    "confidence": "medium",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://example.com/allege-starlink",
+        "https://example.com/no-evidence-note"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T02:28:08.362Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://example.com/allege-starlink",
+    "media_url": null,
+    "quotes": []
+  },
+  "fact_bundle": {
+    "facts": [
+      "Some social-media users allege that Starlink was used to interfere with the 2024 US presidential election.",
+      "The supplied sources do not provide verified evidence supporting the allegation.",
+      "Starlink is a SpaceX satellite internet service associated with Musk."
+    ],
+    "subject_quotes": [],
+    "source_urls": [
+      "https://example.com/allege-starlink",
+      "https://example.com/no-evidence-note"
+    ],
+    "publisher_headlines": [],
+    "suggested_occurred_at": "2024-11-06T12:00:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "rumor-unconfirmed",
+    "notes": "Title should use Claim: prefix. Do not use tribal political labels. Short names only (Musk, Starlink, SpaceX) — not full personal names in title/body."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://example.com/allege-starlink",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://example.com/no-evidence-note",
+      "error": "HTTP 404"
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T02:28:08.369Z"
+}

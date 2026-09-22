@@ -1,0 +1,67 @@
+{
+  "case_id": "spacex-company-announce",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "SpaceX targets Starship flight test",
+    "summary_html": "<p>SpaceX <a href=\"https://www.spacex.com/launches/\">targets</a> a Starship integrated vehicle test flight from Starbase, Texas. This flight is not a crew mission.</p>",
+    "occurred_at": "2024-10-13T12:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "unmanned-launch",
+    "topic_slugs": [
+      "elon-musk",
+      "spacex",
+      "starship-rocket"
+    ],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://www.spacex.com/launches/",
+        "publisher": "SpaceX",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://www.spacex.com/launches/"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T02:28:03.600Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://www.spacex.com/launches/",
+    "media_url": null,
+    "quotes": []
+  },
+  "fact_bundle": {
+    "facts": [
+      "SpaceX targets a Starship flight test from Starbase, Texas.",
+      "Musk is CEO of SpaceX.",
+      "The flight is an integrated vehicle test, not a crew mission."
+    ],
+    "subject_quotes": [],
+    "source_urls": [
+      "https://www.spacex.com/launches/"
+    ],
+    "publisher_headlines": [],
+    "suggested_occurred_at": "2024-10-13T12:00:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "unmanned-launch",
+    "notes": "If exact launch time unknown when generating, keep date_precision honest."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://www.spacex.com/launches/",
+      "error": "Fetched page had little readable text"
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T02:28:03.606Z"
+}

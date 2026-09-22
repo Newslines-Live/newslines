@@ -1,0 +1,14 @@
+{
+  "id": "tesla-deliveries",
+  "description": "Business/sales-report style facts.",
+  "topic": "elon-musk",
+  "urls": ["https://ir.tesla.com/press-release/example-deliveries"],
+  "facts": [
+    "Tesla publishes a quarterly production and delivery update.",
+    "The update covers vehicle production and deliveries for the quarter.",
+    "Musk is CEO of Tesla."
+  ],
+  "suggested_occurred_at": "2024-04-02T12:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "sales-report"
+}

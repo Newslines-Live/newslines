@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Newslines (Next.js rebuild)
 
-## Getting Started
+Reader-focused rebuild of [newslines.org](https://newslines.org): topic newslines, The Grid, Musk + McGregor cluster seed. Reuses patterns from UPchart (Supabase clients, shadcn-style UI).
 
-First, run the development server:
+## Quick start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev              # http://localhost:3030 (UPchart uses 3000)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+`data/seed.json` holds the reader dataset. Prefer the offline archive import (no LLM, no live WP):
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run seed:archive               # full dump → data/seed.json (~35k posts)
+npm run seed:archive:clusters      # Musk + McGregor clusters only
+npm run seed:wikidata-images       # topic images from Wikidata (TypeScript)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Requires the training dump at  
+`C:\Users\spark\.cursor-tutor\Projects\training\data\wp_summaries.json`  
+plus the event-dates SQL export in that project.
 
-## Learn More
+Live WordPress re-fetch (Cloudflare may block):
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run seed:wp                    # Playwright cluster scrape
+# Or run scripts/browser-seed-snippet.js inside a logged-in browser session
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Supabase (optional)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Create a **new** Supabase project (do not reuse AIMCA/UPchart DBs).
+2. Apply `supabase/migrations/20260805180000_newslines_schema.sql`.
+3. Copy `.env.example` → `.env.local` and fill keys.
+4. `npm run seed:wp:supabase`
 
-## Deploy on Vercel
+Until Supabase is connected, the app reads `data/seed.json`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Event generation pilot (Phase 0 — Musk)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Source-grounded CLI to generate Newslines-style events for `elon-musk` (does **not** auto-merge into seed):
+
+```bash
+# Requires OPENAI_API_KEY in .env.local
+npm run generate:event -- --case content/pilot-musk/cases/statement-x-paste.json
+npm run generate:event -- --case content/pilot-musk/cases/claim-frame.json --skip-dupe
+```
+
+See [content/pilot-musk/README.md](content/pilot-musk/README.md).
+
+## Routes
+
+- `/` — marketing + clusters
+- `/grid` — The Grid
+- `/[topic]` — newsline (Latest / Biography)
+- `/[topic]/events/[type]` — filtered
+- `/[topic]/[event]` — event detail
+- `/search`, `/admin`

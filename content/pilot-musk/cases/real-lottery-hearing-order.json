@@ -1,0 +1,28 @@
+{
+  "id": "real-lottery-hearing-order",
+  "description": "Philadelphia judge orders Musk to attend hearing in DA challenge to $1m voter lottery; Reuters.",
+  "topic": "elon-musk",
+  "urls": [
+    "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+  ],
+  "pasted_text": "Reuters/CNBC-sourced legal report (2024-10-30):\nA Philadelphia judge orders that the case brought by the Philadelphia District Attorney challenging a $1 million-per-day voter lottery linked to Musk (described in coverage as an 'illegal lottery' challenge) has its hearing schedule changed. The hearing is moved up by a day. Musk is ordered to appear in person. Court language includes an order that all parties must be present at the time of the hearing.\nReported context: civil litigation over a large-dollar prize for registered voters associated with political advocacy, opposed by the Philadelphia DA as an illegal lottery under state law.\nSource: https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/",
+  "facts": [
+    "In late Oct 2024, a Philadelphia judge issues an order in the civil case brought by the Philadelphia District Attorney over a $1 million-per-day voter lottery associated with Musk.",
+    "The DA’s suit characterises the prize scheme as an illegal lottery under applicable law.",
+    "The court moves the hearing up by one day.",
+    "The order requires Musk to appear in person at the hearing.",
+    "The written order states that all parties must be present at the time of the hearing.",
+    "Reuters reports the order on 30 Oct 2024 (via CNBC legal coverage syndication)."
+  ],
+  "subject_quotes": [
+    {
+      "text": "It is further ordered that all parties must be present at the time of the hearing",
+      "speaker": "Philadelphia court order",
+      "source_url": "https://www.reuters.com/legal/elon-musk-ordered-attend-1-million-voter-lottery-suit-hearing-philadelphia-cnbc-2024-10-30/"
+    }
+  ],
+  "suggested_occurred_at": "2024-10-30T00:08:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "court-filing",
+  "notes": "Short names: Musk, Philadelphia DA. Do not invent hearing outcome (appearance/order only). Prefer court-filing or trial-related leaf; not files-suit unless Musk is plaintiff. Include $1m/day lottery context, DA plaintiff, move-up of hearing, in-person appearance requirement."
+}

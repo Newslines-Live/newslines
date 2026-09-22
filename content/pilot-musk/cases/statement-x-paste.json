@@ -1,0 +1,23 @@
+{
+  "id": "statement-x-paste",
+  "description": "Pure X statement using pasted_text (no live X fetch).",
+  "topic": "elon-musk",
+  "urls": ["https://x.com/elonmusk/status/EXAMPLE001"],
+  "pasted_text": "Elon Musk posts on X on 2024-11-25: Meanwhile, some idiots are still building manned fighter jets like the F-35. Context: responding to discussion of drone warfare capability.",
+  "facts": [
+    "On 2024-11-25, Musk posts on X about manned fighter jets and the F-35.",
+    "Musk writes that some people are still building manned fighter jets like the F-35.",
+    "The post is in the context of discussion about drone warfare."
+  ],
+  "subject_quotes": [
+    {
+      "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35",
+      "speaker": "Elon Musk",
+      "source_url": "https://x.com/elonmusk/status/EXAMPLE001"
+    }
+  ],
+  "suggested_occurred_at": "2024-11-25T15:32:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "makes-statement",
+  "notes": "Use short name Musk in title and body (not Elon Musk). Quote language is Musk's; narrator must not adopt pejoratives outside the quote."
+}

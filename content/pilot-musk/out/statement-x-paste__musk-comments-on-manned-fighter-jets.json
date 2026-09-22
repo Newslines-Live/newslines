@@ -1,0 +1,82 @@
+{
+  "case_id": "statement-x-paste",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "Musk comments on manned fighter jets",
+    "summary_html": "<p>Elon Musk <a href=\"https://x.com/elonmusk/status/EXAMPLE001\">posts</a> on X about manned fighter jets in the context of drone warfare:</p><blockquote><p>Meanwhile, some idiots are still building manned fighter jets like the F-35.</p></blockquote>",
+    "occurred_at": "2024-11-25T15:32:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "makes-statement",
+    "topic_slugs": [
+      "elon-musk"
+    ],
+    "quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35.",
+        "speaker": "Elon Musk",
+        "source_url": "https://x.com/elonmusk/status/EXAMPLE001"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/elonmusk/status/EXAMPLE001",
+        "publisher": "X",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://x.com/elonmusk/status/EXAMPLE001"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T02:25:06.812Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://x.com/elonmusk/status/EXAMPLE001",
+    "media_url": null,
+    "quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35.",
+        "speaker": "Elon Musk"
+      }
+    ]
+  },
+  "fact_bundle": {
+    "facts": [
+      "On 2024-11-25, Elon Musk posts on X about manned fighter jets and the F-35.",
+      "Musk writes that some people are still building manned fighter jets like the F-35.",
+      "The post is in the context of discussion about drone warfare."
+    ],
+    "subject_quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35",
+        "speaker": "Elon Musk",
+        "source_url": "https://x.com/elonmusk/status/EXAMPLE001"
+      }
+    ],
+    "source_urls": [
+      "https://x.com/elonmusk/status/EXAMPLE001"
+    ],
+    "publisher_headlines": [],
+    "suggested_occurred_at": "2024-11-25T15:32:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "makes-statement",
+    "notes": "Quote language is Musk's; narrator must not adopt pejoratives outside the quote."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://x.com/elonmusk/status/EXAMPLE001",
+      "error": "X/Twitter pages usually require login. Pass --text-file or case.pasted_text."
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T02:25:06.820Z"
+}

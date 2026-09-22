@@ -1,0 +1,134 @@
+[
+  {
+    "title": "SpaceX launches Starship test flight",
+    "summary_html": "<p>SpaceX <a href=\"https://www.spacex.com/\">conducts</a> a Starship integrated flight test from Starbase, Texas.</p>",
+    "occurred_at": "2023-04-20T13:33:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "unmanned-launch",
+    "topic_slugs": ["elon-musk", "spacex", "starship-rocket"],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://www.spacex.com/",
+        "publisher": "SpaceX",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": ["https://www.spacex.com/"],
+      "generated_at": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Musk: Free speech is the bedrock of democracy",
+    "summary_html": "<p>Musk <a href=\"https://x.com/elonmusk\">writes</a> on X:</p><blockquote><p>Free speech is the bedrock of democracy.</p></blockquote>",
+    "occurred_at": "2022-11-01T12:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "makes-statement",
+    "topic_slugs": ["elon-musk", "twitter"],
+    "quotes": [
+      {
+        "text": "Free speech is the bedrock of democracy.",
+        "speaker": "Elon Musk",
+        "source_url": "https://x.com/elonmusk"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://x.com/elonmusk",
+        "publisher": "X",
+        "type": "primary"
+      }
+    ],
+    "media": [
+      {
+        "url": "https://x.com/elonmusk",
+        "kind": "x_post",
+        "author": "@elonmusk"
+      }
+    ],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": ["https://x.com/elonmusk"],
+      "generated_at": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Tesla reports quarterly vehicle deliveries",
+    "summary_html": "<p>Tesla <a href=\"https://ir.tesla.com/\">reports</a> quarterly vehicle production and delivery figures in an investor update.</p>",
+    "occurred_at": "2024-04-02T00:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "sales-report",
+    "topic_slugs": ["elon-musk", "tesla-inc"],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://ir.tesla.com/",
+        "publisher": "Tesla IR",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": ["https://ir.tesla.com/"],
+      "generated_at": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "Claim: Starlink used to interfere with elections",
+    "summary_html": "<p>Some social-media users <a href=\"https://example.com/claim\">allege</a> Starlink was used to interfere with a national election. There is no verified evidence supporting the claim in the supplied sources.</p>",
+    "occurred_at": "2024-11-06T00:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "rumor-unconfirmed",
+    "topic_slugs": ["elon-musk", "spacex"],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://example.com/claim",
+        "publisher": "Example",
+        "type": "context"
+      },
+      {
+        "url": "https://example.com/debunk",
+        "publisher": "Example",
+        "type": "corroboration"
+      }
+    ],
+    "media": [],
+    "confidence": "medium",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": ["https://example.com/claim", "https://example.com/debunk"],
+      "generated_at": "2026-01-01T00:00:00.000Z"
+    }
+  },
+  {
+    "title": "SpaceX is founded",
+    "summary_html": "<p>Musk <a href=\"https://www.spacex.com/\">founds</a> SpaceX to develop launch vehicles and spacecraft.</p>",
+    "occurred_at": "2002-03-14T12:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "founding",
+    "topic_slugs": ["elon-musk", "spacex"],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://www.spacex.com/",
+        "publisher": "SpaceX",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "historical",
+      "input_urls": ["https://www.spacex.com/"],
+      "generated_at": "2026-01-01T00:00:00.000Z"
+    }
+  }
+]

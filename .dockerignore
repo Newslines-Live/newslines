@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.env*
+data/seed.json.tmp
+scripts/_cdp-payload.json
+scripts/_expr_out.js
+content/pilot-musk/out
+*.md
+!README.md

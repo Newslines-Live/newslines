@@ -1,26 +1,87 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  /* Matched from live newslines.org computed styles */
+  --nl-orange: #fa4d2a;
+  --nl-orange-dark: #e03d1a;
+  --nl-teal: #188fa7;
+  --nl-teal-bright: #5dceba;
+  --nl-green: #22b715;
+  --nl-wash: #e6f8fa;
+  --background: var(--nl-wash);
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+  --font-date: var(--font-date);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.entry-event-date {
+  font-family: var(--font-date), Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--nl-orange);
+  margin: 0;
+  padding: 0;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.prose-nl a {
+  color: var(--nl-orange);
+  text-decoration: none;
+}
+
+.prose-nl a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-nl blockquote {
+  margin: 0.75rem 0;
+  padding: 3px 3px 0 10px;
+  background: rgba(24, 143, 167, 0.32);
+  border-left: 6.4px solid rgba(28, 43, 125, 0.14);
+  color: #000;
+  font-size: 1.1em;
+}
+
+.prose-nl p {
+  margin: 0 0 15px;
+}
+
+.prose-nl img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive YouTube (and similar) embeds from transformed WP Lyte markup */
+.prose-nl .nl-video {
+  position: relative;
+  width: 100%;
+  max-width: 853px;
+  aspect-ratio: 16 / 9;
+  margin: 1rem 0;
+  background: #0a0a0a;
+  overflow: hidden;
+}
+
+.prose-nl .nl-video iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.prose-nl iframe:not(.nl-video iframe) {
+  max-width: 100%;
 }

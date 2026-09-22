@@ -1,0 +1,109 @@
+{
+  "case_id": "real-f35-drone-statement",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "Musk criticizes F-35 program in favor of drone swarms",
+    "summary_html": "<p>Musk <a href=\"https://twitter.com/elonmusk/status/1860574377013838033\">posts</a> on X, referencing a viral video of coordinated drone swarms, and criticizes the ongoing construction of manned fighter jets like the F-35.</p><blockquote><p>Meanwhile, some idiots are still building manned fighter jets like the F-35.</p></blockquote><p>Musk argues that the F-35 design is flawed, stating, <blockquote><p>It's a shit design…The F-35 design was broken at the requirements level, because it was required to be too many things to too many people.</p></blockquote> He claims that manned jets are obsolete and cites the Russia–Ukraine conflict as evidence of the dangers posed by sophisticated threats.</p>",
+    "occurred_at": "2024-11-25T15:32:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "makes-statement",
+    "topic_slugs": [
+      "elon-musk",
+      "politics"
+    ],
+    "quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35.",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1860574377013838033"
+      },
+      {
+        "text": "It's a shit design…The F-35 design was broken at the requirements level, because it was required to be too many things to too many people.",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1860574377013838033"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://twitter.com/elonmusk/status/1860574377013838033",
+        "type": "primary"
+      },
+      {
+        "url": "https://www.forbes.com/sites/davidhambling/2024/11/26/elon-musk-calls-f-35-builders-idiots-favors-drone-swarms/",
+        "publisher": "Forbes",
+        "type": "corroboration"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://twitter.com/elonmusk/status/1860574377013838033",
+        "https://www.forbes.com/sites/davidhambling/2024/11/26/elon-musk-calls-f-35-builders-idiots-favors-drone-swarms/"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T16:01:39.044Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://twitter.com/elonmusk/status/1860574377013838033",
+    "media_url": null,
+    "quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35.",
+        "speaker": "Elon Musk"
+      },
+      {
+        "text": "It's a shit design…The F-35 design was broken at the requirements level, because it was required to be too many things to too many people.",
+        "speaker": "Elon Musk"
+      }
+    ]
+  },
+  "fact_bundle": {
+    "facts": [
+      "On or about 24–25 Nov 2024, Musk posts on X after referencing a viral video of large-scale coordinated drone swarms.",
+      "Musk criticises continued construction of manned fighter jets such as the F-35 in favour of drone-swarm approaches.",
+      "In follow-up X replies, Musk says the F-35 design was broken at the requirements level because it was required to be too many things to too many people, making it expensive and complex.",
+      "Musk argues manned fighter jets are obsolete in the age of drones and that crewed fighters will get pilots killed against sophisticated SAM or drone threats, citing the Russia–Ukraine conflict as an example.",
+      "Musk says crewed fighter jets are an inefficient way to extend missile range or drop bombs compared with reusable drones that avoid pilot overhead.",
+      "Musk writes that some US weapons systems are good but overpriced and urges ending the F-35 program as the worst military value for money in history among US systems he references.",
+      "Forbes publishes coverage of the posts on 26 Nov 2024."
+    ],
+    "subject_quotes": [
+      {
+        "text": "Meanwhile, some idiots are still building manned fighter jets like the F-35",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1860574377013838033"
+      },
+      {
+        "text": "It's a shit design…The F-35 design was broken at the requirements level, because it was required to be too many things to too many people. This made it an expensive & complex jack of all trades, master of none.",
+        "speaker": "Elon Musk",
+        "source_url": "https://twitter.com/elonmusk/status/1860574377013838033"
+      }
+    ],
+    "source_urls": [
+      "https://twitter.com/elonmusk/status/1860574377013838033",
+      "https://www.forbes.com/sites/davidhambling/2024/11/26/elon-musk-calls-f-35-builders-idiots-favors-drone-swarms/"
+    ],
+    "publisher_headlines": [
+      "Elon Musk Calls F-35 Builders ‘Idiots’, Favors Drone Swarms"
+    ],
+    "suggested_occurred_at": "2024-11-25T15:32:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "makes-statement",
+    "notes": "Short names only. Keep pejoratives only inside blockquotes. Use X URL as primary source; Forbes as corroboration. Prefer 2 short blockquotes max, not the entire rant. Still mention drone-swarm video context, design-requirements critique, Russia–Ukraine SAM/drone point, and call to stop F-35 funding value argument."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://twitter.com/elonmusk/status/1860574377013838033",
+      "error": "X/Twitter pages usually require login. Pass --text-file or case.pasted_text."
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T16:01:39.054Z"
+}

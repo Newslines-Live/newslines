@@ -1,0 +1,32 @@
+{
+  "id": "real-starship-ift6",
+  "description": "IFT-6 / Starship Flight 6 — dense facts from documented flight + BBC live + Musk ocean-landing statement.",
+  "topic": "elon-musk",
+  "urls": [
+    "https://www.bbc.co.uk/news/live/c87xqd0n1zgt",
+    "https://twitter.com/elonmusk/status/1859036912348262787"
+  ],
+  "pasted_text": "SOURCE NOTES (public flight summary for Newslines pilot).\n\nDate: 2024-11-19. Location: Starbase, Texas (SpaceX).\nMission: sixth integrated flight test of Super Heavy booster and Starship (often called Flight 6 / IFT-6).\nVehicles: Super Heavy Booster 13 and Starship Ship 31.\nGoals: operational improvements; heat-shield experiments; steeper reentry angle to gather thermal protection system data.\nPayload detail reported: a banana was carried as a payload item.\nLaunch: successful liftoff and hot-stage separation.\nBooster: diverted to a controlled splashdown in the Gulf of Mexico rather than being caught by the tower catch arms (\"Mechazilla\").\nShip: reignited one Raptor engine in space; flight duration about 1 hour 5 minutes; completed splashdown in the Indian Ocean.\nAfterwards (2024-11-20) Musk posts on X about a successful ocean landing of Starship and that SpaceX will do one more ocean landing of the ship; if that goes well, SpaceX will attempt to catch the ship with the tower.\n\nCorroboration URL (BBC live coverage): https://www.bbc.co.uk/news/live/c87xqd0n1zgt\nMusk post: https://twitter.com/elonmusk/status/1859036912348262787",
+  "facts": [
+    "On 19 Nov 2024, SpaceX conducts the sixth integrated flight test of Super Heavy and Starship from Starbase, Texas.",
+    "The flight uses Super Heavy Booster 13 and Starship Ship 31.",
+    "The test focuses on operational improvements, including heat-shield experiments and flying at a steeper reentry angle to gather thermal-protection-system performance data.",
+    "The flight carries a banana as a reported payload item.",
+    "Launch and hot-stage separation succeed.",
+    "Booster 13 is diverted to splashdown in the Gulf of Mexico instead of a catch by the Mechazilla tower arms.",
+    "Ship 31 reignites one Raptor engine in space.",
+    "After a flight of about 1 hour 5 minutes, Ship 31 completes splashdown in the Indian Ocean.",
+    "On 20 Nov 2024, Musk posts that the ocean landing of Starship was successful and that SpaceX will do one more ocean landing of the ship before attempting a tower catch."
+  ],
+  "subject_quotes": [
+    {
+      "text": "Successful ocean landing of Starship! We will do one more ocean landing of the ship. If that goes well, then SpaceX will attempt to catch the ship with the tower.",
+      "speaker": "Elon Musk",
+      "source_url": "https://twitter.com/elonmusk/status/1859036912348262787"
+    }
+  ],
+  "suggested_occurred_at": "2024-11-19T10:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "unmanned-launch",
+  "notes": "Short names: Musk, SpaceX, Starship, Super Heavy, Ship 31, Booster 13. Primary action is the flight on Nov 19; Musk post on Nov 20 is part of the same event record as reaction. Prefer BBC link on key verb and X as primary for the quote."
+}

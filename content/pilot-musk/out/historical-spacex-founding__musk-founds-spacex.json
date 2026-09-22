@@ -1,0 +1,65 @@
+{
+  "case_id": "historical-spacex-founding",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": []
+  },
+  "event": {
+    "title": "Musk founds SpaceX",
+    "summary_html": "<p>Musk <a href=\"https://www.spacex.com/about\">founds</a> Space Exploration Technologies Corporation (SpaceX) to build rockets and spacecraft.</p>",
+    "occurred_at": "2002-03-14T12:00:00.000Z",
+    "date_precision": "exact",
+    "event_type_slug": "founding",
+    "topic_slugs": [
+      "elon-musk",
+      "spacex"
+    ],
+    "quotes": [],
+    "sources": [
+      {
+        "url": "https://www.spacex.com/about",
+        "publisher": "SpaceX",
+        "type": "primary"
+      }
+    ],
+    "media": [],
+    "confidence": "high",
+    "provenance": {
+      "pipeline": "pilot",
+      "input_urls": [
+        "https://www.spacex.com/about"
+      ],
+      "model": "gpt-4o-mini-2024-07-18",
+      "generated_at": "2026-08-07T02:28:12.680Z"
+    }
+  },
+  "seed_mapping": {
+    "source_url": "https://www.spacex.com/about",
+    "media_url": null,
+    "quotes": []
+  },
+  "fact_bundle": {
+    "facts": [
+      "Musk founds Space Exploration Technologies Corporation (SpaceX) in 2002.",
+      "SpaceX is established to build rockets and spacecraft."
+    ],
+    "subject_quotes": [],
+    "source_urls": [
+      "https://www.spacex.com/about"
+    ],
+    "publisher_headlines": [],
+    "suggested_occurred_at": "2002-03-14T12:00:00.000Z",
+    "suggested_date_precision": "exact",
+    "suggested_event_type_slug": "founding",
+    "notes": "Short name Musk only in title/body."
+  },
+  "fetch_errors": [
+    {
+      "url": "https://www.spacex.com/about",
+      "error": "Fetched page had little readable text"
+    }
+  ],
+  "model": "gpt-4o-mini-2024-07-18",
+  "generated_at": "2026-08-07T02:28:12.686Z"
+}

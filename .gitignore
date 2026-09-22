@@ -32,6 +32,12 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env.coolify-setup.local
+
+# local import leftovers
+data/seed.json.tmp
+scripts/_cdp-payload.json
+scripts/_expr_out.js
 
 # vercel
 .vercel

@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Conor McGregor",
+    "slug": "conor-mcgregor",
+    "src": "/mock-mosaic/conor-mcgregor.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Conor_McGregor_2025.jpeg/330px-Conor_McGregor_2025.jpeg",
+    "span": "lg",
+    "tint": "#fa4d2a",
+    "posts": 1859
+  },
+  {
+    "name": "On Air With Ryan Seacrest",
+    "slug": "on-air-with-ryan-seacrest",
+    "src": "/mock-mosaic/on-air-with-ryan-seacrest.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/OnAirWithRyan_logo.jpg/330px-OnAirWithRyan_logo.jpg",
+    "span": "tall",
+    "tint": "#188fa7",
+    "posts": 856
+  },
+  {
+    "name": "Ryan Seacrest",
+    "slug": "ryan-seacrest",
+    "src": "/mock-mosaic/ryan-seacrest.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ryan_Seacrest_%282019%29.jpg/330px-Ryan_Seacrest_%282019%29.jpg",
+    "span": "md",
+    "tint": "#e8b84a",
+    "posts": 848
+  },
+  {
+    "name": "Floyd Mayweather Jr.",
+    "slug": "floyd-mayweather-jr",
+    "src": "/mock-mosaic/floyd-mayweather-jr.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Floyd_Mayweather_Jr_2011.jpg/330px-Floyd_Mayweather_Jr_2011.jpg",
+    "span": "wide",
+    "tint": "#5dceba",
+    "posts": 507
+  },
+  {
+    "name": "Elon Musk",
+    "slug": "elon-musk",
+    "src": "/mock-mosaic/elon-musk.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Elon_Musk_-_54820081119_%28cropped%29.jpg/330px-Elon_Musk_-_54820081119_%28cropped%29.jpg",
+    "span": "md",
+    "tint": "#fa4d2a",
+    "posts": 470
+  },
+  {
+    "name": "Ebola",
+    "slug": "ebola",
+    "src": "/mock-mosaic/ebola.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/7042_lores-Ebola-Zaire-CDC_Photo.jpg/330px-7042_lores-Ebola-Zaire-CDC_Photo.jpg",
+    "span": "tall",
+    "tint": "#c084fc",
+    "posts": 466
+  },
+  {
+    "name": "The Arsenio Hall Show",
+    "slug": "the-arsenio-hall-show",
+    "src": "/mock-mosaic/the-arsenio-hall-show.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/The_Arsenio_Hall_Show.png/330px-The_Arsenio_Hall_Show.png",
+    "span": "sm",
+    "tint": "#f59e0b",
+    "posts": 452
+  },
+  {
+    "name": "Ice Bucket Challenge",
+    "slug": "ice-bucket-challenge",
+    "src": "/mock-mosaic/ice-bucket-challenge.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/330px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg",
+    "span": "md",
+    "tint": "#38bdf8",
+    "posts": 406
+  },
+  {
+    "name": "Donald Trump",
+    "slug": "donald-trump",
+    "src": "/mock-mosaic/donald-trump.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/330px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg",
+    "span": "sm",
+    "tint": "#fb7185",
+    "posts": 379
+  },
+  {
+    "name": "Arsenio Hall",
+    "slug": "arsenio-hall",
+    "src": "/mock-mosaic/arsenio-hall.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Arsenio_Hall_in_2014.jpg/330px-Arsenio_Hall_in_2014.jpg",
+    "span": "wide",
+    "tint": "#34d399",
+    "posts": 379
+  },
+  {
+    "name": "The Late Show with David Letterman",
+    "slug": "the-late-show-with-david-letterman",
+    "src": "/mock-mosaic/the-late-show-with-david-letterman.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1a/Late_Show_with_David_Letterman.png/330px-Late_Show_with_David_Letterman.png",
+    "span": "md",
+    "tint": "#60a5fa",
+    "posts": 361
+  },
+  {
+    "name": "Michael Jackson",
+    "slug": "michael-jackson",
+    "src": "/mock-mosaic/michael-jackson.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/330px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
+    "span": "sm",
+    "tint": "#f472b6",
+    "posts": 237
+  },
+  {
+    "name": "Barack Obama",
+    "slug": "barack-obama",
+    "src": "/mock-mosaic/barack-obama.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/330px-President_Barack_Obama.jpg",
+    "span": "sm",
+    "tint": "#a3a3a3",
+    "posts": 216
+  },
+  {
+    "name": "Taylor Swift",
+    "slug": "taylor-swift",
+    "src": "/mock-mosaic/taylor-swift.png",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/330px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
+    "span": "md",
+    "tint": "#ef4444",
+    "posts": 210
+  },
+  {
+    "name": "Dana White",
+    "slug": "dana-white",
+    "src": "/mock-mosaic/dana-white.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Ilham_Aliyev_received_Dana_White%2C_June_2025_%283x4_cropped_and_rotated_on_White%29.jpg/330px-Ilham_Aliyev_received_Dana_White%2C_June_2025_%283x4_cropped_and_rotated_on_White%29.jpg",
+    "span": "lg",
+    "tint": "#22b715",
+    "posts": 202
+  },
+  {
+    "name": "Jimmy Fallon",
+    "slug": "jimmy-fallon",
+    "src": "/mock-mosaic/jimmy-fallon.jpg",
+    "remote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Jimmy_Fallon-TTL_4575_%2811046141004%29_%285x7_cropped_and_rotated%29.jpg/330px-Jimmy_Fallon-TTL_4575_%2811046141004%29_%285x7_cropped_and_rotated%29.jpg",
+    "span": "tall",
+    "tint": "#188fa7",
+    "posts": 199
+  }
+]

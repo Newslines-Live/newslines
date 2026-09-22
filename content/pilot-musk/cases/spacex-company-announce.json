@@ -1,0 +1,16 @@
+{
+  "id": "spacex-company-announce",
+  "description": "Company-style announcement with pre-supplied facts (simulates IR/blog).",
+  "topic": "elon-musk",
+  "urls": ["https://www.spacex.com/launches/"],
+  "facts": [
+    "SpaceX targets a Starship flight test from Starbase, Texas.",
+    "Musk is CEO of SpaceX.",
+    "The flight is an integrated vehicle test, not a crew mission."
+  ],
+  "subject_quotes": [],
+  "suggested_occurred_at": "2024-10-13T12:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "unmanned-launch",
+  "notes": "If exact launch time unknown when generating, keep date_precision honest."
+}

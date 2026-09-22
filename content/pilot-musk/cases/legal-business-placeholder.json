@@ -1,0 +1,15 @@
+{
+  "id": "legal-business-placeholder",
+  "description": "Legal/business event template — replace with real filing URLs before scoring.",
+  "topic": "elon-musk",
+  "urls": ["https://www.sec.gov/"],
+  "facts": [
+    "Tesla files a Form 8-K with the US Securities and Exchange Commission.",
+    "The filing discloses a specified corporate event under SEC rules.",
+    "Elon Musk is CEO of Tesla."
+  ],
+  "suggested_occurred_at": "2024-01-15T12:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "document-release",
+  "notes": "Replace facts with the real 8-K substance for a real pilot score."
+}

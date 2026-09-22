@@ -1,0 +1,14 @@
+{
+  "id": "historical-spacex-founding",
+  "description": "Historical founding milestone with exact or month precision.",
+  "topic": "elon-musk",
+  "urls": ["https://www.spacex.com/about"],
+  "facts": [
+    "Musk founds Space Exploration Technologies Corporation (SpaceX) in 2002.",
+    "SpaceX is established to build rockets and spacecraft."
+  ],
+  "suggested_occurred_at": "2002-03-14T12:00:00.000Z",
+  "suggested_date_precision": "exact",
+  "suggested_event_type_slug": "founding",
+  "notes": "Short name Musk only in title/body."
+}
