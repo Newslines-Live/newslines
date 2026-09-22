@@ -73,18 +73,30 @@ function youtubeEmbedHtml(videoId: string, title: string): string {
 /**
  * Convert WP YouTube Lyte placeholders (plugin JS/CSS not shipped) into
  * responsive youtube-nocookie iframes so embeds render in the Next app.
+ * Also keep legacy upload / attachment URLs on this origin.
  */
 export function transformSummaryHtml(html: string): string {
-  if (!html || !html.includes("lyte-wrapper")) return html;
+  if (!html) return html;
+
+  let result = html.replace(
+    /https?:\/\/(?:www\.)?newslines\.org(\/wp-content\/uploads\/[^"'?\s>]+)/gi,
+    "$1"
+  );
+  result = result.replace(
+    /(<a\b[^>]*\bhref=")[^"]*\/attachment\/[^"]*("[^>]*>\s*<img\b[^>]*\bsrc="([^"]+)")/gi,
+    "$1$3$2"
+  );
+
+  if (!result.includes("lyte-wrapper")) return result;
 
   const re = /<div class="lyte-wrapper"([^>]*)>/gi;
-  let result = "";
+  let out = "";
   let lastIndex = 0;
   let match: RegExpExecArray | null;
 
-  while ((match = re.exec(html)) !== null) {
+  while ((match = re.exec(result)) !== null) {
     const start = match.index;
-    const after = html.slice(start);
+    const after = result.slice(start);
     const idMatch = after.match(/id="lyte_([A-Za-z0-9_-]+)"/);
     const llMatch = after.match(/<div class="lL"[^>]*><\/div>/);
     if (!idMatch || !llMatch || llMatch.index == null) continue;
@@ -92,11 +104,10 @@ export function transformSummaryHtml(html: string): string {
     const end = start + llMatch.index + llMatch[0].length;
     const title =
       (match[1].match(/title="([^"]*)"/) || [])[1] || "YouTube video";
-    result += html.slice(lastIndex, start) + youtubeEmbedHtml(idMatch[1], title);
+    out += result.slice(lastIndex, start) + youtubeEmbedHtml(idMatch[1], title);
     lastIndex = end;
     re.lastIndex = end;
   }
 
-  result += html.slice(lastIndex);
-  return result;
+  return out + result.slice(lastIndex);
 }

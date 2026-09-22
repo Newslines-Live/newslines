@@ -68,11 +68,6 @@ const nextConfig: NextConfig = {
         destination: "/:topic/:event",
         permanent: true,
       },
-      {
-        source: "/:topic/:event/attachment/:slug*",
-        destination: "/:topic/:event",
-        permanent: true,
-      },
     ];
   },
 };
