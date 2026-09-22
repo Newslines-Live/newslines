@@ -24,6 +24,7 @@ const date = Raleway({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://newslines.org"),
   title: {
     default: "Newslines – Interactive unbiased news timelines",
     template: "%s – Newslines",
