@@ -3,8 +3,8 @@ node_modules
 .git
 .env*
 data/seed.json.tmp
-scripts/_cdp-payload.json
-scripts/_expr_out.js
-content/pilot-musk/out
+scripts
+content
+supabase
 *.md
 !README.md
