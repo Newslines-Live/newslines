@@ -38,6 +38,10 @@ yarn-error.log*
 data/seed.json.tmp
 scripts/_cdp-payload.json
 scripts/_expr_out.js
+scripts/_wp-uploads.json
+
+# WP media is stored on the Coolify volume, not in git
+/public/wp-content/
 
 # vercel
 .vercel

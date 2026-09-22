@@ -3,7 +3,9 @@ node_modules
 .git
 .env*
 data/seed.json.tmp
-scripts
+scripts/*
+!scripts/download-wp-uploads.mjs
+!scripts/docker-entrypoint.sh
 content
 supabase
 *.md
